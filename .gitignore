@@ -1,0 +1,33 @@
+# Archivos y directorios comunes de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+env/
+.venv/
+*.env
+
+# Archivos de entornos de desarrollo (IDE)
+.vscode/
+.idea/
+*.swp
+*.bak
+*~
+
+# Archivos de logs
+*.log
+log/
+
+# Archivos temporales
+*.tmp
+tmp/
+temp/
+
+# Archivos de diagramas generados
+*.svg
+*.png
+*.jpg
+*.pdf
+*.drawio.xml
+*.drawio

@@ -1,0 +1,235 @@
+{
+  "templates": {
+    "task": {
+      "width": 120,
+      "height": 80,
+      "vertex": "1",
+      "style_base": "shape=mxgraph.bpmn.task2;rectStyle=rounded;size=10;html=1;container=1;collapsible=0;expand=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];"
+    },
+    "event": {
+      "width": 50,
+      "height": 50,
+      "vertex": "1",
+      "style_base": "shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];"
+    },
+    "gateway": {
+      "width": 60,
+      "height": 60,
+      "vertex": "1",
+      "style_base": "shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;verticalAlign=top;align=center;points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];"
+    },
+    "data_object": {
+      "width": 40,
+      "height": 60,
+      "vertex": "1",
+      "style_base": "shape=mxgraph.bpmn.data2;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;"
+    },
+    "sub_process": {
+      "vertex": "1",
+      "style_base": "swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;"
+    },
+    "pool": {
+      "width": 600,
+      "height": 400,
+      "vertex": "1",
+      "style_base": "swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=0;whiteSpace=wrap;"
+    },
+    "lane": {
+      "width": 600,
+      "height": 120,
+      "vertex": "1",
+      "style_base": "swimlane;html=1;startSize=20;horizontal=0;"
+    }
+  },
+  "modifiers": {
+    "whiteSpace": {
+      "wrap": "whiteSpace=wrap"
+    },
+    "taskMarker": {
+      "abstract": "taskMarker=abstract",
+      "service": "taskMarker=service",
+      "send": "taskMarker=send",
+      "receive": "taskMarker=receive",
+      "user": "taskMarker=user",
+      "manual": "taskMarker=manual",
+      "businessRule": "taskMarker=businessRule",
+      "script": "taskMarker=script"
+    },
+    "isLoopStandard": {
+      "1": "isLoopStandard=1"
+    },
+    "isLoopSub": {
+      "1": "isLoopSub=1",
+      "0": "isLoopSub=0"
+    },
+    "isLoopMultiParallel": {
+      "1": "isLoopMultiParallel=1"
+    },
+    "isLoopMultiSeq": {
+      "1": "isLoopMultiSeq=1"
+    },
+    "isLoopComp": {
+      "1": "isLoopComp=1"
+    },
+    "isAdHoc": {
+      "1": "isAdHoc=1"
+    },
+    "bpmnShapeType": {
+      "transaction": "bpmnShapeType=transaction",
+      "subprocess": "bpmnShapeType=subprocess",
+      "call": "bpmnShapeType=call"
+    },
+    "outline": {
+      "eventNonint": "outline=eventNonint",
+      "eventInt": "outline=eventInt",
+      "none": "outline=none",
+      "standard": "outline=standard",
+      "end": "outline=end",
+      "boundInt": "outline=boundInt",
+      "boundNonint": "outline=boundNonint",
+      "throwing": "outline=throwing",
+      "catching": "outline=catching"
+    },
+    "symbol": {
+      "message": "symbol=message",
+      "timer": "symbol=timer",
+      "conditional": "symbol=conditional",
+      "signal": "symbol=signal",
+      "multiple": "symbol=multiple",
+      "parallelMultiple": "symbol=parallelMultiple",
+      "escalation": "symbol=escalation",
+      "error": "symbol=error",
+      "compensation": "symbol=compensation",
+      "general": "symbol=general",
+      "none": "symbol=none",
+      "link": "symbol=link",
+      "cancel": "symbol=cancel",
+      "star": "symbol=star",
+      "terminate": "symbol=terminate",
+      "terminate2": "symbol=terminate2"
+    },
+    "arcSize": {
+      "10": "arcSize=10",
+      "0": "arcSize=0"
+    },
+    "verticalAlign": {
+      "top": "verticalAlign=top"
+    },
+    "align": {
+      "left": "align=left"
+    },
+    "spacingLeft": {
+      "5": "spacingLeft=5"
+    },
+    "gwType": {
+      "exclusive": "gwType=exclusive",
+      "parallel": "gwType=parallel",
+      "complex": "gwType=complex"
+    },
+    "part": {
+      "1": "part=1"
+    },
+    "connectable": {
+      "0": "connectable=0"
+    },
+    "bottomRightStyle": {
+      "square": "bottomRightStyle=square"
+    },
+    "bottomLeftStyle": {
+      "square": "bottomLeftStyle=square"
+    },
+    "rectStyle": {
+      "square": "rectStyle=square"
+    },
+    "topLeftStyle": {
+      "square": "topLeftStyle=square"
+    },
+    "topRightStyle": {
+      "square": "topRightStyle=square"
+    },
+    "fillColor": {
+      "#C0C0C0": "fillColor=#C0C0C0",
+      "none": "fillColor=none"
+    },
+    "bpmnTransferType": {
+      "none": "bpmnTransferType=none",
+      "input": "bpmnTransferType=input",
+      "output": "bpmnTransferType=output"
+    },
+    "isCollection": {
+      "1": "isCollection=1"
+    },
+    "fontStyle": {
+      "0": "fontStyle=0",
+      "1": "fontStyle=1"
+    },
+    "collapsible": {
+      "0": "collapsible=0"
+    },
+    "swimlaneLine": {
+      "0": "swimlaneLine=0",
+      "1": "swimlaneLine=1"
+    },
+    "horizontal": {
+      "1": "horizontal=1",
+      "0": "horizontal=0"
+    },
+    "swimlaneFillColor": {
+      "#ffffff": "swimlaneFillColor=#ffffff"
+    },
+    "strokeWidth": {
+      "2": "strokeWidth=2"
+    },
+    "shape": {
+      "mxgraph.bpmn.swimlane": "shape=mxgraph.bpmn.swimlane",
+      "tableRow": "shape=tableRow"
+    },
+    "swimlaneHead": {
+      "0": "swimlaneHead=0"
+    },
+    "swimlaneBody": {
+      "0": "swimlaneBody=0"
+    },
+    "top": {
+      "0": "top=0"
+    },
+    "left": {
+      "0": "left=0"
+    },
+    "strokeColor": {
+      "inherit": "strokeColor=inherit"
+    },
+    "bottom": {
+      "0": "bottom=0"
+    },
+    "right": {
+      "0": "right=0"
+    },
+    "dropTarget": {
+      "0": "dropTarget=0"
+    },
+    "points": {
+      "[[0,0.5],[1,0.5]]": "points=[[0,0.5],[1,0.5]]"
+    },
+    "portConstraint": {
+      "eastwest": "portConstraint=eastwest"
+    },
+    "startSize": {
+      "40": "startSize=40",
+      "0": "startSize=0"
+    },
+    "recursiveResize": {
+      "0": "recursiveResize=0"
+    },
+    "expand": {
+      "0": "expand=0"
+    },
+    "fontSize": {
+      "16": "fontSize=16"
+    },
+    "horizontalStack": {
+      "0": "horizontalStack=0",
+      "1": "horizontalStack=1"
+    }
+  }
+}
